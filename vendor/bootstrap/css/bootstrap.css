@@ -451,6 +451,14 @@ h3, .h3 {
   font-size: 1.75rem;
 }
 
+h3 {
+    display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
+
 h4, .h4 {
   font-size: 1.5rem;
 }
