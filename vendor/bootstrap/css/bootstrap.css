@@ -54,25 +54,12 @@ element.style {
 .fa-phone-o:before {
     content: url('../images/phone24x24.png');
 }
-::before {
-    box-sizing: border-box;
+.list-menu-phone {
+  background-image: url('/images/phone24x24.png');
+  background-position: left center;
+  background-repeat: no-repeat;
+  padding-left: 20px; /* Adjust according to image size to push text across. */
 }
-.fa-fw {
-    width: 1.28571429em;
-    text-align: center;
-}
-
-.fa {
-    display: inline-block;
-    font: normal normal normal 14px/1 FontAwesome;
-    font-size: inherit;
-    text-rendering: auto;
-    -webkit-font-smoothing: antialiased;
-
-}
-
-
-
   a,
   a:visited {
     text-decoration: underline;
