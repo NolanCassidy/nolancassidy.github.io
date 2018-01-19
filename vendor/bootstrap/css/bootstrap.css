@@ -42,11 +42,23 @@
     text-shadow: none !important;
     box-shadow: none !important;
   }
+
+  .fa-lg {
+    font-size: 1rem;
+  }
+
+  .fa-phone:before {
+    content: "/images/phone24x24.png";
+  }
+
+
+
+
   a,
   a:visited {
     text-decoration: underline;
   }
-  
+
   abbr[title]::after {
     content: " (" attr(title) ")";
   }
