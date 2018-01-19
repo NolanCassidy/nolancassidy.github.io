@@ -43,23 +43,11 @@
     box-shadow: none !important;
   }
 
-  .fa-fw {
-      width: 1.28571429em;
-      text-align: center;
-  }
+
 
 element.style {
 }
 
-.fa-phone-o:before {
-    content: url('../images/phone24x24.png');
-}
-.list-menu-phone {
-  background-image: url('/images/phone24x24.png');
-  background-position: left center;
-  background-repeat: no-repeat;
-  padding-left: 20px; /* Adjust according to image size to push text across. */
-}
   a,
   a:visited {
     text-decoration: underline;
