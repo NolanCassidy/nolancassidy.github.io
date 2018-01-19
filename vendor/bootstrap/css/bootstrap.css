@@ -52,7 +52,7 @@ element.style {
 }
 
 .fa-phone-o:before {
-    content: "/images/phone24x24.png";
+    content: "\f003";
 }
 ::before {
     box-sizing: border-box;
