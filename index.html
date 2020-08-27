@@ -45,7 +45,7 @@
 
 <body id="page-top">
 
-  <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+  <nav class="navbar navbar-expand-lg navbar-light bg-primary fixed-top" id="sideNav">
     <a class="navbar-brand js-scroll-trigger" href="#page-top">
       <span class="d-block d-lg-none"><img class="img-fluid img-profile rounded-circle mx-auto mb-2" height="40" width="40" src="img/profile.jpg" alt=""></span>
       <span class="d-none d-lg-block">
@@ -58,16 +58,16 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav">
         <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#about">Contact</a>
+          <a class="nav-link js-scroll-trigger navblue" href="#about">Contact</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#education">Education</a>
+          <a class="nav-link js-scroll-trigger navgreen" href="#education">Education</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#experience">Experience</a>
+          <a class="nav-link js-scroll-trigger navred" href="#experience">Experience</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#code">Projects</a>
+          <a class="nav-link js-scroll-trigger navyellow" href="#code">Projects</a>
         </li>
       </ul>
     </div>
@@ -75,13 +75,13 @@
 
   <div class="container-fluid p-0">
 
-    <section class="resume-section p-3 p-lg-5 d-flex d-column" id="about">
+    <section class="resume-section p-3 p-lg-5 d-flex d-column bluesection" id="about">
       <div class="my-auto">
         <h1 class="mb-0">Nolan
           <span class="text-primary">Cassidy</span>
         </h1>
-        <div class="subheading mb-0"><a href="https://www.linkedin.com/in/nolancassidy/" target="_blank" style="color: #1A1A1D">linkedin</a> · <a href="https://github.com/NolanCassidy" target="_blank" style="color: #1A1A1D">GITHUB</a> · <a
-            href="Resume.pdf" target="_blank" style="color: #1A1A1D">Resume</a>
+        <div class="subheading mb-0"><a href="https://www.linkedin.com/in/nolancassidy/" target="_blank" style="color: #A3AAAE">linkedin</a> · <a href="https://github.com/NolanCassidy" target="_blank" style="color: #A3AAAE">GITHUB</a> · <a
+            href="Resume.pdf" target="_blank" style="color: #A3AAAE">Resume</a>
         </div>
         <div class="subheading mb-5"><a href="tel:4159120096">(415)912-0096</a> · <a href="mailto:name@email.com">nolancassidy1@gmail.com</a>
         </div>
@@ -131,16 +131,14 @@
 </section>
 -->
 
-    <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="education">
+    <section class="resume-section p-3 p-lg-5 d-flex flex-column greensection" id="education">
       <div class="my-auto">
         <img style='height: 100%; width: 100%; object-fit: cover' src="faces.png" />
         <p></p>
         <div class="resume-item d-flex flex-column flex-md-row mb-5">
           <div class="resume-content mr-auto">
-            <div class="resume-date text-md-right">
-              <span class="text-primary"><b>2016 - 2019</b></span>
-            </div>
             <h3 class="mb-0">Education</h3>
+            <span class="text-primary"><b>2016 - 2019</b></span>
             <div style="white-space: pre-wrap;" class="subheading mb-3"><b>B.S.</b> in <b>Computer & Information Science</b> | Minor in <b>Economics</b> | University of Oregon</div>
             <ul>
               <li>Programming Competition Club - Solved coding problems during weekly meetings with classmates and professors </li>
@@ -168,21 +166,32 @@
 
 
 
-    <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="experience">
+    <section class="resume-section p-3 p-lg-5 d-flex flex-column redsection" id="experience">
       <div class="my-auto">
         <img style='height: 100%; width: 100%; object-fit: cover' src="logos.png" />
         <p></p>
-        
         <div class="resume-item d-flex flex-column flex-md-row mb-5">
           <div class="resume-content mr-auto">
-            <div class="resume-date text-md-right">
-              <span class="text-primary"><b>Jun 2019 - Oct 2019</b></span>
-            </div>
+            <h3 class="blue mb-0">Software Engineer</h3>
+            <div class="green subheading mb-0"><a href="http://www.goodgreenapp.com" target="_blank">Good Green Technology</a></div>
+            <span class="red"><b>Jun 2020 - Present</b></span>
+            <p class="yellow">Remote</p>
+            <ul>
+              <li>Develop new releases for the iOS/Android/Web applications.</li>
+              <li>Manage AWS EC2 instances and MySQL & MongoDB database.</li>
+              <li>Help plan agile develoment using Jira and proper Git conventions.</li>
+              <li>Technologies used: Node.JS, React.JS, Express.JS, Swift, Xcode, Java, Android Studio.</li>
+            </ul>
+          </div>
+        </div>
+        <div class="resume-item d-flex flex-column flex-md-row mb-5">
+          <div class="resume-content mr-auto">
             <h3 class="mb-0">Software Engineer Intern</h3>
-            <div class="subheading mb-0"><a href="http://www.fullcourt.io" target="_blank" style="color: #1A1A1D">Fullcourt</a></div>
+            <div class="subheading mb-0"><a href="http://www.fullcourt.io" target="_blank">Fullcourt</a></div>
+            <span class=""><b>Jun 2019 - Oct 2019</b></span>
             <p>Los Angeles, CA</p>
             <ul>
-              <li>Pushed two features to the web admin portal and IOS/Android mobile app in my first two weeks.</li>
+              <li>Developed features for the Web/IOS/Android applications.</li>
               <li>Currently implementing messaging capabilities between users within the app. </li>
               <li>Technologies used: Node.JS, Meteor.JS, React.JS, Express.JS, Swift, Objective-C, Java, Cordova, MongoDB, XCode, ElasticSearch, Git.</li>
             </ul>
@@ -190,11 +199,9 @@
         </div>
         <div class="resume-item d-flex flex-column flex-md-row mb-5">
           <div class="resume-content mr-auto">
-            <div class="resume-date text-md-right">
-              <span class="text-primary"><b>Jun 2018 - Sep 2018</b></span>
-            </div>
             <h3 class="mb-0">Information Technology Intern</h3>
-            <div class="subheading mb-0"><a href="https://www.oakwood.com/" target="_blank" style="color: #1A1A1D">Oakwood Worldwide</a></div>
+            <div class="subheading mb-0"><a href="https://www.oakwood.com/" target="_blank">Oakwood Worldwide</a></div>
+            <span class=""><b>Jun 2018 - Sep 2018</b></span>
             <p>Santa Monica, CA</p>
             <ul>
               <li>Implemented artificial intelligence and machine learning into the company.</li>
@@ -207,12 +214,9 @@
 
         <div class="resume-item d-flex flex-column flex-md-row mb-5">
           <div class="resume-content mr-auto">
-
-            <div class="resume-date text-md-right">
-              <span class="text-primary"><b>Jun 2015 - Jan 2018</b></span>
-            </div>
             <h3 class="mb-0">Coding Instructor</h3>
-            <div class="subheading mb-0"><a href="https://www.mvcodeclub.com/" target="_blank" style="color: #1A1A1D">MV Code Club</a></div>
+            <div class="subheading mb-0"><a href="https://www.mvcodeclub.com/" target="_blank" >MV Code Club</a></div>
+            <span class=""><b>Jun 2015 - Jan 2018</b></span>
             <p>Marin County, CA</p>
             <ul>
               <li>Educated classes on C++, Java, C#, JavaScript, Unity, Blender, Arduino, Mobile Development, XCode, Android Studio, HTML, CSS, Game Modding, Scratch and Oculus Virtual Reality.</li>
@@ -222,19 +226,15 @@
 
         <div class="resume-item d-flex flex-column flex-md-row">
           <div class="resume-content mr-auto">
-            <div class="resume-date text-md-right">
-              <span class="text-primary"><b>Jun 2016 - Sep 2016</b></span>
-            </div>
             <h3 class="mb-0">Information Technology Intern</h3>
-            <div class="subheading mb-0"><a href="https://www.trxtraining.com" target="_blank" style="color: #1A1A1D">TRX</a></div>
+            <div class="subheading mb-0"><a href="https://www.trxtraining.com" target="_blank" >TRX</a></div>
+            <span class=""><b>Jun 2016 - Sep 2016</b></span>
             <p>San Francisco, CA</p>
             <ul>
               <li>Integrated a dynamic cloud platform for improved workflow and marketing by migrating all local assets to the digital asset management system Webdam.</li>
               <li>Helped develop a personal website for the CEO made in WordPress.</li>
             </ul>
-            <div class="resume-date text-md-right">
-              <span class="text-primary"><b>Jun 2015</b></span>
-            </div>
+            <span class=""><b>Jun 2015</b></span>
             <p>Los Angeles, CA</p>
             <ul>
               <li>Responsible to set-up, operate technology, help customers, and tear down at IDEA Fitness Convention, the largest TRX tradeshow.</li>
@@ -248,88 +248,38 @@
 
 
 
-    <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="code">
+    <section class="resume-section p-3 p-lg-5 d-flex flex-column yellowsection" id="code">
       <div class="my-auto">
-        <div class="resume-date text-md-right">
-          <a href="https://www.github.com/nolancassidy" target="_blank" style="color: #90CCF4">Github Link</a>
-        </div>
         <h3 class="mb-3">Project List</h3>
 
         <img style='height: 100%; width: 100%; object-fit: cover' src="unlocked.gif" />
-        <div class="resume-date text-md-right">
-          <a href="https://unlockednolan.herokuapp.com/" target="_blank" style="color: #90CCF4"><b>https://unlockednolan.herokuapp.com/</b></a><br>
-          <a href="https://github.com/NolanCassidy/unlocked" target="_blank" style="color: #90CCF4"><b>https://github.com/NolanCassidy/unlocked</b></a>
-        </div>
-
+        <br />
         <img style='height: 100%; width: 100%; object-fit: cover' src="chitchatportfolio.png" />
-        <div class="resume-date text-md-right">
-          <a href="https://www.chitchat.services" target="_blank" style="color: #90CCF4"><b>https://www.chitchat.services</b></a><br>
-          <a href="https://github.com/NolanCassidy/chitchat" target="_blank" style="color: #90CCF4"><b>https://github.com/NolanCassidy/chitchat</b></a>
-        </div>
-
+        <br />
         <img style='height: 100%; width: 100%; object-fit: cover' src="15.png" />
-        <div class="resume-date text-md-right">
-          <a href="https://fullcourt.io" target="_blank" style="color: #90CCF4"><b>http://fullcourt.io</b></a>
-        </div>
-
+        <br />
         <img style='height: 100%; width: 100%; object-fit: cover' src="12.png" />
-        <div class="resume-date text-md-right">
-          <a href="https://nalon.me" target="_blank" style="color: #90CCF4"><b>https://nalon.me</b></a><br>
-          <a href="https://github.com/NolanCassidy/nolurl" target="_blank" style="color: #90CCF4"><b>https://github.com/NolanCassidy/nolurl</b></a>
-        </div>
-
-
+        <br />
         <img style='height: 100%; width: 100%; object-fit: cover' src="project4.png" />
-        <div class="resume-date text-md-right">
-          <a href="https://github.com/NolanCassidy/rasterization-phong-shading" target="_blank" style="color: #90CCF4"><b>https://github.com/NolanCassidy/rasterization-phong-shading</b></a>
-        </div>
-        <div class="resume-date text-md-right">
-          <a href="https://youtu.be/V5kyJAyQMec" target="_blank" style="color: #90CCF4"><b> https://youtu.be/V5kyJAyQMec</b></a>
-        </div>
-
+        <br />
         <img style='height: 100%; width: 100%; object-fit: cover' src="project1.png" />
-        <div class="resume-date text-md-right">
-        </div>
-
+        <br />
         <img style='height: 100%; width: 100%; object-fit: cover' src="project0.png" />
-        <div class="resume-date text-md-right">
-          <a href="http://www.nolancassidy.com/Tree-Map-UO" target="_blank" style="color: #90CCF4"><b>http://www.nolancassidy.com/Tree-Map-UO</b></a>
-        </div>
-
-
+        <br />
         <img style='height: 100%; width: 100%; object-fit: cover' src="project3.png" />
-        <div class="resume-date text-md-right">
-          <a href="https://github.com/NolanCassidy/brevets-flask-auth-mongo-rest" target="_blank" style="color: #90CCF4"><b>https://github.com/NolanCassidy/brevets-flask-auth-mongo-rest</b></a>
-        </div>
-
+        <br />
         <img style='height: 100%; width: 100%; object-fit: cover' src="16.png" />
-        <div class="resume-date text-md-right">
-          <a href="https://github.com/NolanCassidy/arduino-robotics" target="_blank" style="color: #90CCF4"><b>https://github.com/NolanCassidy/arduino-robotics</b></a>
-        </div>
-
-        <img style='height: 100%; width: 100%; object-fit: cover' src="17.png" />
-        <div class="resume-date text-md-right">
-          <a href="https://github.com/NolanCassidy/stock-prediction" target="_blank" style="color: #90CCF4"><b>https://github.com/NolanCassidy/stock-prediction</b></a>
-        </div>
-
+        <br />
+        <img style='height: 100%; width: 100%; object-fit: cover' src="17.png" />=
+        <br />
         <img style='height: 100%; width: 100%; object-fit: cover' src="14.png" />
-        <div class="resume-date text-md-right">
-          <a href="https://github.com/NolanCassidy/oculus-rail-shooter-game" target="_blank" style="color: #90CCF4"><b>https://github.com/NolanCassidy/oculus-rail-shooter-game</b></a>
-        </div>
-
+        <br />
         <img style='height: 100%; width: 100%; object-fit: cover' src="project5.png" />
-        <div class="resume-date text-md-right">
-          <a href="https://github.com/NolanCassidy/rasterization-image-processing" target="_blank" style="color: #90CCF4"><b>https://github.com/NolanCassidy/rasterization-image-processing</b></a>
-        </div>
-
+        <br />
         <img style='height: 100%; width: 100%; object-fit: cover' src="project2.png" />
-        <div class="resume-date text-md-right">
-        </div>
-
+        <br />
         <img style='height: 100%; width: 100%; object-fit: cover' src="13.png" />
-        <div class="resume-date text-md-right">
-          <a href="https://github.com/NolanCassidy/mobile-roll-a-ball-game" target="_blank" style="color: #90CCF4"><b>https://github.com/NolanCassidy/mobile-roll-a-ball-game</b></a>
-        </div>
+
 
 
 
